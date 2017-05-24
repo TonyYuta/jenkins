@@ -8,25 +8,25 @@ public class PMD {
 	// Useless parentheses
 	public class UselessParentheses {
 		void bar() {
-			int value = 0;
-			int i = 0;
-			String s = null;
-			value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
+			int valueTvcs = 0;
+			int isacevewvTxv = 0;
+			String sasdTafwqf = null;
+			valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv));
 
 		}
 	}
 	
 	// BigIntegerInstantiation
 	public void BigInteger() {
-		BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
-												// instead
-		BigInteger bi2 = new BigInteger("0"); 	// reference BigInteger.ZERO
-												// instead
-		BigInteger bi3 = new BigInteger("0.0"); // reference BigInteger.ZERO
-												// instead
+//		BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
+//												// instead
+//		BigInteger bi2 = new BigInteger("0"); 	// reference BigInteger.ZERO
+//												// instead
+//		BigInteger bi3 = new BigInteger("0.0"); // reference BigInteger.ZERO
+//												// instead
 		BigInteger bi4;
 		bi4 = new BigInteger("0"); 				// reference BigInteger.ZERO instead
-		System.out.println(bi1 + ", " + bi2 + ", " + bi3 + ", " + bi4);
+		//System.out.println(bi1 + ", " + bi2 + ", " + bi3 + ", " + bi4);
 	}
 	
 	
@@ -77,13 +77,13 @@ public class PMD {
 
 	// ShortVariable
 	public class ShortVariable {
-		private int q = 15; // field - too short
+		private int qqqqRr = 15; // field - too short
 
 		public void main(String as[]) { // formal argument - too short
-			int r = 20 + q; // local variable - too short
+			int r = 20 + qqqqRr; // local variable - too short
 			for (int i = 0; i < 10; i++) { // Not a violation (inside 'for'
 											// loop)
-				r += q;
+				r += qqqqRr;
 			}
 
 		}
@@ -97,6 +97,7 @@ public class PMD {
 			int otherReallyLongName = -5; 			// VIOLATION - Local
 			for (int interestingIntIndex = 0; 		// VIOLATION - For
 					interestingIntIndex < 10; interestingIntIndex++) {
+				otherReallyLongName += 1;
 			}
 		}
 
