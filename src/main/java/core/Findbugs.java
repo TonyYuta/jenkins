@@ -7,9 +7,10 @@ public class Findbugs {
 
 	// FinalParametersCheck
 	@SuppressWarnings("null")
-	public static boolean A(String name) {
-		boolean n = (Boolean) null;
-		return n;
+	public static boolean aasseerrtyTss(String name) {
+		//boolean n = (Boolean) null;
+		boolean nneerrttyy = true;
+		return nneerrttyy;
 	}
 	
 	// getSecurePassword
@@ -18,11 +19,12 @@ public class Findbugs {
 		return "my-sec" + "ret-password";
 	}
 
-	static void abc() {	
-		int x = 2;
-		int y = 5;
-		double value1 =  x / y;
-
+	static int abcVVssdf() {	
+		final int x = 2;
+		final int y = 5;
+		//double value1 =  x / y;
+		int value1 = x + y;
+		return value1;
 	}
 
 }

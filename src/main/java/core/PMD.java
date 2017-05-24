@@ -6,12 +6,12 @@ public class PMD {
 	
 
 	// Useless parentheses
-	public class UselessParentheses {
-		void bar() {
-			int valueTvcs = 0;
-			int isacevewvTxv = 0;
-			String sasdTafwqf = null;
-			valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv));
+public class UselessParentheses {
+void barAsssa() {
+int valueTvcs = 0;
+int isacevewvTxv = 0;
+final String sasdTafwqf = "Sa";
+valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv));
 
 		}
 	}
@@ -24,18 +24,20 @@ public class PMD {
 //												// instead
 //		BigInteger bi3 = new BigInteger("0.0"); // reference BigInteger.ZERO
 //												// instead
-		BigInteger bi4;
-		bi4 = new BigInteger("0"); 				// reference BigInteger.ZERO instead
+		BigInteger bi4ssqq;
+		bi4ssqq = new BigInteger("0"); 				// reference BigInteger.ZERO instead
 		//System.out.println(bi1 + ", " + bi2 + ", " + bi3 + ", " + bi4);
 	}
 	
 	
 	// JumbledIncrementer
 	public class JumbledIncrementerRule1 {
-		public void foo() {
-			for (int i = 0; i < 10; i++) { // only references 'i'
-				for (int k = 0; k < 20; i++) { // references both 'i' and 'k'
-					System.out.println("Hello");
+		public void fooSadde() {
+			int ssKaas = 0;
+			for (int iIiigg = 0; iIiigg < 10; iIiigg++) { // only references 'i'
+				for (int kIhgfa = 0; kIhgfa < 20; iIiigg++) { // references both 'i' and 'k'
+					//System.out.println("Hello");
+					ssKaas +=2;
 				}
 			}
 		}
@@ -43,32 +45,34 @@ public class PMD {
 
 	// ForLoopShouldBeWhileLoop
 
-	public class Foo {
-		void bar() {
-			for (; true;)
-				; // No Initialization or Update part, may as well be: while
-					// (true)
+	public class FooDaae {
+		void barBerty() {
+			int issadff= 10;
+//			for (; true;)
+//				; // No Initialization or Update part, may as well be: while
+//					// (true)
 		}
 	}
 
 	// ReturnFromFinallyBlock
 	public class Bar {
-		public String foo() {
+		public String foodqwfqwf() {
 			try {
-				throw new Exception("My Exception");
 			} catch (Exception e) {
 				throw e;
 			} finally {
-				return "ok"; // return not recommended here
+				//return "ok"; // return not recommended here
 			}
 		}
 	}
 
 	// UnconditionalIfStatement
-	public class Foo2 {
+	public class Foo2ssddert {
 		public void close() {
-			if (true) { // fixed conditional, not recommended
-
+			int ssaassaa = 0;
+			final int aasseerr = 10;
+			if (aasseerr > 3) { // fixed conditional, not recommended
+				ssaassaa +=1;
 			}
 		}
 	}
