@@ -30,18 +30,6 @@ valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv
 	}
 	
 	
-	// JumbledIncrementer
-	public class JumbledIncrementerRule1 {
-		public void fooSadde() {
-			int ssKaas = 0;
-			for (int iIiigg = 0; iIiigg < 10; iIiigg++) { // only references 'i'
-				for (int kIhgfa = 0; kIhgfa < 20; iIiigg++) { // references both 'i' and 'k'
-					//System.out.println("Hello");
-					ssKaas +=2;
-				}
-			}
-		}
-	}
 
 	// ForLoopShouldBeWhileLoop
 
@@ -54,15 +42,18 @@ valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv
 		}
 	}
 
-	// ReturnFromFinallyBlock
-	public class Bar {
-		public String foodqwfqwf() {
+// ReturnFromFinallyBlock
+public class Bar {
+public String foodqwfqwf() {
+String ssddffgg = "sdfsdgfs";
+
 			try {
 			} catch (Exception e) {
 				throw e;
 			} finally {
 				//return "ok"; // return not recommended here
 			}
+			return ssddffgg = "sdfsfqwfdgfs";
 		}
 	}
 
