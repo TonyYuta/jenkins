@@ -41,7 +41,7 @@ valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv
 //					// (true)
 		}
 	}
-	
+	// duplicate class
 	public class FooDaae2 {
 		void barBerty() {
 			int issadff= 10;
