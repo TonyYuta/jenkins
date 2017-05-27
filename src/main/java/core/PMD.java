@@ -4,7 +4,22 @@ import java.math.BigInteger;
 // https://pmd.github.io/pmd-5.1.3/
 public class PMD {
 	
+	// original function for dupl
+	public void uselessParentheses01() {
+	int sadsafsa01 = 4;
+	int sadsafsa02 = 4;
+	int sadsafsa03 = 4;
+	int result = sadsafsa01 + sadsafsa02 + sadsafsa03;
+	}
 
+	//duplicate function
+	public void uselessParentheses02() {
+	int sadsafsa01 = 4;
+	int sadsafsa02 = 4;
+	int sadsafsa03 = 4;
+	int result = sadsafsa01 + sadsafsa02 + sadsafsa03;
+	}
+	
 	// Useless parentheses
 public class UselessParentheses {
 void barAsssa() {
@@ -12,6 +27,7 @@ int valueTvcs = 0;
 int isacevewvTxv = 0;
 final String sasdTafwqf = "Sa";
 valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv));
+
 
 		}
 	}
