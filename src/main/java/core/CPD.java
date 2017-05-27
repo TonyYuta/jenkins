@@ -51,4 +51,22 @@ public class CPD {
 		}
 	}
 	
+	public class Foo2 {
+		void bar() {
+			for (; true;)
+				; // No Initialization or Update part, may as well be: while
+					// (true)
+		}
+	}
+	
+	public class Foo3 {
+		void bar() {
+			for (; true;)
+				; // No Initialization or Update part, may as well be: while
+					// (true)
+		}
+	}
+	
 }
+
+
