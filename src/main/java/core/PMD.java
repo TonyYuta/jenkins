@@ -90,6 +90,7 @@ public int dupEx1(int myInp) {
 }
 
 
+
 public int dupEx2(int myInp) {
 	int res = 0;
 	for(int iii = 0; iii < 10; iii++ ) {
@@ -105,6 +106,15 @@ public int dupEx3(int myInp) {
 	}
 	return res;
 }
+
+public int dupEx4(int myInp) {
+	int res = 0;
+	for(int iii = 0; iii < 10; iii++ ) {
+		res = myInp + iii;
+	}
+	return res;
+}
+
 
 	}
 
