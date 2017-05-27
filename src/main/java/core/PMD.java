@@ -80,7 +80,36 @@ String ssddffgg = "sdfsdgfs";
 			}
 			return ssddffgg = "sdfsfqwfdgfs";
 		}
+
+public int dupEx1(int myInp) {
+	int res = 0;
+	for(int iii = 0; iii < 10; iii++ ) {
+		res = myInp + iii;
 	}
+	return res;
+}
+
+
+public int dupEx2(int myInp) {
+	int res = 0;
+	for(int iii = 0; iii < 10; iii++ ) {
+		res = myInp + iii;
+	}
+	return res;
+}
+
+public int dupEx3(int myInp) {
+	int res = 0;
+	for(int iii = 0; iii < 10; iii++ ) {
+		res = myInp + iii;
+	}
+	return res;
+}
+
+	}
+
+
+
 
 	// UnconditionalIfStatement
 	public class Foo2ssddert {
