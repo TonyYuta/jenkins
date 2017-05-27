@@ -41,6 +41,15 @@ valueTvcs += (sasdTafwqf.replaceAll("\\s", "").toLowerCase().charAt(isacevewvTxv
 //					// (true)
 		}
 	}
+	
+	public class FooDaae2 {
+		void barBerty() {
+			int issadff= 10;
+//			for (; true;)
+//				; // No Initialization or Update part, may as well be: while
+//					// (true)
+		}
+	}
 
 // ReturnFromFinallyBlock
 public class Bar {
