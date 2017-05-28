@@ -67,6 +67,38 @@ public class CPD {
 		}
 	}
 	
+	public class Foo4 {
+		     void bar() {
+		       for (; true;)
+		         ; // No Initialization or Update part, may as well be: while
+		           // (true)
+		       
+		     }
+	}
+	
+	public class Foo5 {
+	     void bar() {
+	       for (; true;)
+	         ; // No Initialization or Update part, may as well be: while
+	           // (true)
+	       
+	     }
+	     
+	     public void dupQ() {
+		       for (; true;) {
+		    	   
+		       }
+
+	     }
+	     
+	     public void dup2() {
+		       for (; true;) {
+		    	   
+		       }
+
+	     }
+}
+	
 }
 
 
